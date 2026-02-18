@@ -1,27 +1,40 @@
 body{
     background-color: lightblue;
-    text-align: center;
     font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 ul{
     list-style-type: none;;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    text-align: center;
+    font-size: 0;
 }
 
-li{
+.recipeLinks{
     display: inline-block;
+    background-color: aliceblue;
     padding: 1em;
-    margin-left: 2em;
+    margin-left: 3.5em;
+
+    border: 0.10em solid black;
+
+    font-size: 16px;
+    border-radius: 1em;
 }
 
 .topHeading{
+    text-align: center;
     background-color: lightcyan;
-    border: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    display: inline-block;
 
     outline: auto;
     outline-color: black;
     outline-style: solid;
-    outline width: 1em;;
+    outline-width: 0.10em;
 }
