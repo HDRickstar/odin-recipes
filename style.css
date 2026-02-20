@@ -17,12 +17,16 @@ ul{
     display: inline-block;
     background-color: aliceblue;
     padding: 1em;
-    margin-left: 3.5em;
+    margin: 1em;
+    text-align: center;
 
     border: 0.10em solid black;
 
     font-size: 16px;
     border-radius: 1em;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
 }
 
 .topHeading{
@@ -30,6 +34,7 @@ ul{
     background-color: lightcyan;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    margin-top: 1em;
 
     display: inline-block;
 
@@ -37,4 +42,19 @@ ul{
     outline-color: black;
     outline-style: solid;
     outline-width: 0.10em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkred;
+}
+
+.recipeLinks:hover{
+    transform: scale(1.1);
+    background-color: lightgray;
+
 }
